@@ -2098,6 +2098,7 @@
 
 	section.special, article.special {
 		text-align: center;
+		max-width: 100%;
 	}
 
 	header p {
@@ -2451,6 +2452,8 @@
 		display: inline-block;
 		position: relative;
 		overflow: hidden;
+		width: 100%;
+        height: auto;
 	}
 
 		.image:before {
@@ -3079,12 +3082,14 @@
 
 	.wrapper {
 		padding: 6em 0 4em 0;
-	}
+			}
 
 		.wrapper.style2 {
-						background: #ED7881;
+						background: #E94A65;
+
 			
 		}
+	
 
 			.wrapper.style2 input[type="text"]:focus,
 			.wrapper.style2 input[type="password"]:focus,
@@ -3573,6 +3578,7 @@
 
 			.wrapper {
 				padding: 4.5em 2.5em 2.5em 2.5em;
+
 			}
 
 		/* Banner */
@@ -3998,5 +4004,6 @@
 						margin: 0;
 						padding: 0;
 					}
+
 
 	}
